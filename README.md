@@ -1,2 +1,3 @@
+- add dsn in sentry.js
 - npm i
 - npm run dev
