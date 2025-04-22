@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Page - Sentry Dead Click Test</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Second Page</h1>
+        <p>
+          Now use your browser's back button to return to the previous page.
+        </p>
+      </div>
+    </div>
+    <script type="module">
+      import { initSentry } from "/src/sentry.js";
+      initSentry();
+    </script>
+  </body>
+</html>
